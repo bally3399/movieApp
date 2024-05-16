@@ -29,17 +29,17 @@ addTask.addEventListener("submit", (e) => {
     const inputValue = addTask.querySelector("input").value.toString();
     if(inputValue){
         const liTag = document.createElement("li");
-        const firstSpan = document.createElement("span");
         const input = document.createElement("input");
+        const firstSpan = document.createElement("span");
         const lastSpan = document.createElement("span");
 
+        input.type= "checkbox";
         firstSpan.className = "name";
         lastSpan.className= "delete";
-        input.type= 'checkbox';
 
+        liTag.appendChild(input);
         liTag.appendChild(firstSpan);
         liTag.appendChild(lastSpan);
-        liTag.appendChild(input);
 
         firstSpan.textContent = inputValue;
         lastSpan.textContent = "delete";
