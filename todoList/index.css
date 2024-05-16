@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: normal;
+}
+.mainContainer{
+    width: 100%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid purple;
+}
+
+#page{
+    background: sienna;
+    padding: 10px 0;
+}
+#page h1, #page p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+#page input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 3px;
+    color: purple;
+    border: 1px solid #515b60;
+    font-size: 14px;
+    display: block;
+    max-width: 300px;
+}
+#task-list #add-task{
+    margin: 30px;
+}
+
+#task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+#task-list li{
+    padding: 20px;
+    border-left: 5px solid #515b60;
+    margin: 20px 10px;
+}
+.delete {
+    float: right;
+    background: sienna;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+.delete:hover{
+    background: orange;
+}
+#add-task{
+    width: 400px;
+    margin: 0 auto;
+}
+#add-task input{
+    width: 300px;
+    float: left;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 4px 0 0 4px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #515b60;
+}
+#add-task button{
+    padding: 10px 20px;
+    background: #515b60;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #515b60;
+    color: #fff;
+    margin: 20px 0;
+    width: 100px;
+    float: left;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+    border-left: 0;
+}
+
+
